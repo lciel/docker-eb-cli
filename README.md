@@ -1,12 +1,12 @@
 docker-eb-cli
 =====
 
-Sets up a container with ElasticBeanstalk CLI CommandLine Interface installed.
+Sets up a container with ElasticBeanstalk CommandLine Interface installed.
 
 ## Usage
 
 ```
-$ docker run --rm lciel/eb-cli COMMAND
+$ docker run --rm -i -t lciel/eb-cli COMMAND
 ```
 
 ## Example
@@ -31,3 +31,6 @@ $ docker run --rm -i -t \
     git aws.push
 ```
 
+## Docker Image
+
+https://registry.hub.docker.com/u/lciel/eb-cli/
